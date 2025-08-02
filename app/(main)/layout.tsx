@@ -1,7 +1,7 @@
+import PrivateNavBar from "@/components/PrivateNavBar";
+import PublicNavBar from "@/components/PublicNavBar";
 import { currentUser } from "@clerk/nextjs/server";
 import React from "react";
-import PublicNavBar from "@/app/components/PublicNavBar";
-import PrivateNavBar from "../components/PrivateNavBar";
 
 type LayoutProps = {
 	children: React.ReactNode;
